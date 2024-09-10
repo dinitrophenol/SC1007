@@ -1,0 +1,28 @@
+Double Hashing: H(k,i) = (H(k) + iD(k)) mod h, where i=0,1,...,h-1
+
+Question 4
+1st slot:
+H(k,0) = 21 mod 11 = 10
+--> slot 10
+
+2nd slot:
+H(k,1) = (10 + 7) mod 11 = 6
+--> slot 6
+
+3rd slot:
+H(k,2) = (10 + 2*7) mod 11 = 2
+--> slot 2
+
+
+Question 5
+1st slot:
+H(k,0) = 19 mod 11 = 8
+--> slot 8
+
+2nd slot:
+H(k,1) = (8 + (5-7)) mod 11 = 6
+--> slot 6
+
+3rd slot:
+H(k,2) = (8 + 2(5-7)) mod 11 = 4
+--> slot 4
